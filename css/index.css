@@ -1,14 +1,10 @@
-/* font-family: 'Inconsolata', monospace;
-font-family: 'Playfair Display', serif;
-font-family: 'Ubuntu', sans-serif; */
-
 * {
     box-sizing: border-box;
 }
 
 /* HEADER */
 .header {
-    padding: 68px 69px;
+    padding: 68px 69px 0 69px;
 }
 
 .content-frame {
@@ -64,4 +60,123 @@ font-family: 'Ubuntu', sans-serif; */
 
 .header-menu-link:hover {
     color: red;
+}
+
+/* MAIN CONTENT */
+.article {
+    margin: 99px 0 0 80px;
+    max-width: 893px;
+}
+
+.article-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.article-name {
+    margin-top: 28px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+
+.article-text {
+    margin-top: 34px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.9em;
+    color: #626262;
+}
+
+.article-text-link-box {
+    margin-top: 52px;
+}
+
+.article-text-link {
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b4ad9e;
+    transition: all ease 0.5s;
+}
+
+.article-text-link:hover {
+    color: #ff0000;
+}
+
+.article-after-link-box {
+    margin-top: 98px;
+    text-align: center;
+}
+
+.article-after-link {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #626262;
+    padding: 21px 34px;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+
+.article-after-link:hover {
+    color: #ff0000;
+    background-color: #626262;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 112px;
+}
+
+.footer-frame {
+    background-color: #f0f0f0;
+    padding: 40px 0px 40px 80px;
+}
+.footer-link-box {
+    display: inline-block;
+}
+.footer-link {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.footer-link:hover {
+    color: #ff0000;
+}
+
+.footer-link:first-child {
+    margin-right: 17px;
+}
+
+.footer-follow-box {
+    display: inline-block;
+    float: right;
+}
+
+.footer-text {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-right: 21px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-img {
+    margin-right: 17px;
 }
