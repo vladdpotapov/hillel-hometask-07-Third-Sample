@@ -1,0 +1,67 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+    padding: 68px 69px;
+}
+
+.content-frame {
+    width: 1062px;
+    margin: 0 auto;
+}
+
+.header-topbar {
+    margin-bottom: 72px;
+}
+
+.header-logo-box {
+    display: inline-block;
+}
+
+.header-menu-box {
+    float: right;
+}
+
+.header-menu-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* setting margins to menu li elements */
+.header-menu-item {
+    display: inline-block;
+}
+
+.header-menu-item:first-child {
+    margin-right: 121px;
+}
+
+.header-menu-item:nth-child(2) {
+    margin-right: 103px;
+}
+
+.header-menu-item:nth-child(3) {
+    margin-right: 95px;
+}
+
+/* styling navbar links */
+.header-menu-link {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.header-menu-link:hover {
+    color: red;
+}
